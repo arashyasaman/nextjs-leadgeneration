@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "vazir-web";
+  src: url("assets/fonts/Vazir-Regular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "vazir-web";
+  src: url("assets/fonts/Vazir-Bold.woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "vazir-web";
+  src: url("assets/fonts/Vazir-Medium.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "vazir-web";
+  src: url("assets/fonts/Vazir-Light.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "vazir-web";
+  src: url("assets/fonts/Vazir-Thin.woff");
+  font-weight: 100;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "vazir-web", tahoma, sans-serif;
+  font-weight: normal;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+div.tag-blue a {
+  color: #5c3ffb;
+  background-color: #edf1ff;
+}
+div.tag-green a {
+  color: #32ba6e;
+  background-color: #e9f9f0;
+}
+div.tag-red a {
+  color: #fb7c3f;
+  background-color: #fef2eb;
+}
+@media only screen and (max-width: 768px) {
+  .smReverse {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+}
